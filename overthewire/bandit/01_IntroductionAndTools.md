@@ -2,7 +2,11 @@ One of the first things I ever did when it came to anything related to learning 
 
 The `bandit` "shell game" was my very first foray into this space and so I thought I should dig out my old notes, update and post them in case they could help anyone else who might be looking from some cool gamified ways to start learning about this field.
 
+**IMPORTANT NOTE:** All of these writeups/walkthroughs are for educational purposes only. In no way does the author endorse, or is responsible for, the malicious use of any tool or technique discussed here and in any subsequent writeup/walkthrough. To understand how we can defend against malicious actors it is important to learn the tools and techniques used by said actors to provide a safe, secure and free cyber-space for us all to enjoy.
+
 First off, here as some tools that I learned about that are useful for the `bandit`.
+
+
 
 ---
 
