@@ -63,3 +63,4 @@ This tool will allow us to connect to each level without dealing with the passwo
 - `pwntools`
 - `radare2`
 - `checksec.sh`
+- `ghidra`
