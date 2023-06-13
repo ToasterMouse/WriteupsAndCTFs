@@ -127,7 +127,7 @@ $key .= $cookie[$i] ^ $plain[$i % strlen($plain)];
 
 # A little more theory (sorry)
 
-As you know `i` is the iterator variable and on each iteration it will be incremented. However, `$key[$i % strlen($key)]` looks odd. Specifically, `$i % strlen($key)`.
+As you know `i` is the iterator variable and on each iteration it will be incremented. However, `$plain[$i % strlen($plain)]` looks odd. Specifically, `$i % strlen($plain)`.
 
 Here, we are using the modulo operator to clamp the value returned to the length of the key. For example, `4`. In effect this will make sure that when performing the XOR calculation the key is repeated, like this:
 
