@@ -70,7 +70,7 @@ XOR	1010 1100
 	1001 1010 = 154
 ```
 
-Encrypting something would be no good if we couldn't decrypt it. Especially if it's a super secret message that must be relayed. This is why XOR is used for encryption. Because it can be reversed (assuming you know the key). If we take the above values as an example we can see how (when using XOR) they are related and allow for this two-way behavior.
+Encrypting something would be no good if we couldn't decrypt it. Especially if it's a super secret message that must be relayed. If we take the above values as an example we can see how (when using XOR) they are related and allow for this two-way behavior.
 
 We know that...
 ```
