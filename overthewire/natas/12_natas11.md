@@ -120,7 +120,7 @@ First, we create our own `xor_decrypt` function, it follows the same formula, ju
 What may be confusing is this line:
 
 ```php
-$outText .= $text[$i] ^ $key[$i % strlen($key)];
+$key .= $cookie[$i] ^ $plain[$i % strlen($plain)];
 ```
 
 ---
