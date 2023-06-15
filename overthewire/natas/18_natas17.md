@@ -18,11 +18,11 @@ We can use the `sleep` function by passing it the number of seconds we wish to w
 
 The payload we'll form is very similar to our previous `SQLi` attack:
 
-- `natas18" and (select sleep(5) from users where binary password like "%") #`
+- `natas18" and binary password like "%" and sleep(5) #`
 
-All we've changed is we've use parentheses to group the second `select` command with a call to check the password and added `sleep(5)`. On success the server will wait 5 seconds before sending the response.
+All we've changed is we've added `sleep(5)`. On success the server will wait 5 seconds before sending the response.
 
-If we test the payload on the website, we'll find that the time-based attack works.
+If we test a time-based payload on the website, we'll find that the time-based attack works.
 
 ![natas17_04.png](https://raw.githubusercontent.com/ToasterMouse/WriteupsAndCTFs/main/overthewire/natas/images/natas17_04.png)
 
@@ -34,7 +34,7 @@ In reality the response will take a little longer than 5 seconds so, we can test
 
 Our script:
 
-![natas17_06.png](https://raw.githubusercontent.com/ToasterMouse/WriteupsAndCTFs/main/overthewire/natas/images/natas17_06.png)
+![natas17_06](https://raw.githubusercontent.com/ToasterMouse/WriteupsAndCTFs/main/overthewire/natas/images/natas17_06.png)
 
 As you can see it's very similar, we just update our payload to use `sleep(5)` in a separate `select` statement. We'll also have to make sure that our quotes are in order so the command gets executed properly (this will require a little character escaping). 
 
