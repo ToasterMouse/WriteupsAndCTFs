@@ -42,6 +42,6 @@ We test if we were successful with a conditional that will only be `true` if the
 
 This will take ~8 minutes to finish.
 
-![natas17_07.png](https://raw.githubusercontent.com/ToasterMouse/WriteupsAndCTFs/main/overthewire/natas/images/natas17_07.png)
+![natas17_07_08.png](https://raw.githubusercontent.com/ToasterMouse/WriteupsAndCTFs/main/overthewire/natas/images/natas17_08.png)
 
 After some time we'll get the password and can move on to the next level. Phew! They've been getting harder, no?
