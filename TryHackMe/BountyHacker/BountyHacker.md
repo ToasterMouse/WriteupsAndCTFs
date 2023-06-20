@@ -4,6 +4,8 @@ This was a simple but fun room based around `Cowboy Bebop`.
 
 >You were boasting on and on about your elite hacker skills in the bar and a few Bounty Hunters decided they'd take you up on claims! Prove your status is more than just a few glasses at the bar. I sense bell peppers & beef in your future!
 
+**Disclaimer:** This walk-through contains spoilers and doesn't censor the answers. 
+
 ---
 
 These machines have a specific path that makes them very easy to follow. Let's follow the flow by answering the questions in order.
