@@ -113,13 +113,13 @@ Now, we'll crack it with `john the ripper`.
 
 ### Steg password
 
-What's `steg`? It's short for `stenography`. The magic of hiding things inside other things such as images. But first, let's check out the zip file contents.
+What's `steg`? It's short for `steganography`. The magic of hiding things inside other things such as images. But first, let's check out the zip file contents.
 
 ![agentsudo_17.png](https://raw.githubusercontent.com/ToasterMouse/WriteupsAndCTFs/main/TryHackMe/AgentSudo/images/agentsudo_17.png)
 
 Apparently, that's another user. An alien!? 
 
-Well they are talking about an image and interestingly we didn't find anything unusual about the `cute-alien.jpg` file. However, just because a few tools didn't work doesn't mean none will. We know we're looking at `stenography` as the method of hiding data, so let's try to use some `steg` tools to see what is in the file... but, we will need a password. 
+Well they are talking about an image and interestingly we didn't find anything unusual about the `cute-alien.jpg` file. However, just because a few tools didn't work doesn't mean none will. We know we're looking at `steganography` as the method of hiding data, so let's try to use some `steg` tools to see what is in the file... but, we will need a password. 
 
 Thankfully, there are tools to brute-force `steg` password's too. First we may come across a program called `stegcracker`, however, this is deprecated and informs us that a program called `stegseek` will work to crack files using `rockyou`  much faster!
 
