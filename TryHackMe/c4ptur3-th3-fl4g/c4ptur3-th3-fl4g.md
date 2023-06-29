@@ -1,4 +1,4 @@
-![[ctf_00.png]]
+![[ctf_00.png]](https://raw.githubusercontent.com/ToasterMouse/WriteupsAndCTFs/main/TryHackMe/c4ptur3-th3-fl4g/images/ctf_00.png)
 
 A room all about beating CTF encoding/encryption challenges.
 
